@@ -78,47 +78,59 @@ Dataset was cleaned, standardized, and modeled to enable time intelligence and c
 ### 1) Data Understanding & Cleaning
 <br>
 
-- Imported raw CSV dataset containing **~75K financial complaint records**
+→ Imported the raw CSV dataset containing **~75K financial complaint records**  
 <br>
-- Reviewed dataset structure, column definitions, and missing value patterns
+→ Reviewed dataset structure, column definitions, and missing value patterns  
 <br>
-- Fixed incorrect **date formats (DD-MM-YYYY → Date)** for accurate time analysis
+→ Fixed incorrect **date formats (DD-MM-YYYY → Date)** to enable accurate time-based analysis  
 <br>
-- Standardized key categorical text fields for consistency:
-  - Product
-  - Issue
-  - Company Response
+→ Standardized key categorical text fields for consistency across reporting:  
 <br>
-- Removed data quality issues:
-  - Duplicate records
-  - Null / blank entries
-  - Inconsistent category labels
+&nbsp;&nbsp;&nbsp;&nbsp;→ Product  
 <br>
-- Created a dedicated **Date Table** to enable proper time intelligence:
-  - Monthly trends
-  - Seasonality tracking
-  - Year-over-year (YoY) comparison
+&nbsp;&nbsp;&nbsp;&nbsp;→ Issue  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Company Response  
+<br>
+→ Improved data quality by handling:  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Duplicate records  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Null / blank values  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Inconsistent category labels  
+<br>
+→ Created a dedicated **Date Table** to support time intelligence such as:  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Monthly trends  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Seasonality tracking  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Year-over-Year (YoY) comparison  
 <br>
 
 ### 2) Data Modelling
 <br>
 
-- Implemented a clean **Star Schema** model to improve analytical performance
+→ Implemented a clean **Star Schema** model to improve analytical performance and scalability  
 <br>
-- Designed tables as:
-  - **Fact Table:** Financial Complaints
-   <br>
-  - **Dimension Table:** Date Table
+→ Designed tables as:  
 <br>
-- Built relationship:
-  - **One-to-many mapping:**
-    <br>
-  - Date Table[Date] → Complaints[Date Received]
+&nbsp;&nbsp;&nbsp;&nbsp;→ **Fact Table:** Financial Complaints  
 <br>
-- Ensured:
-  - Clean filter propagation
-  - Accurate slicing across visuals
-  - Optimized model performance for interactive dashboarding
+&nbsp;&nbsp;&nbsp;&nbsp;→ **Dimension Table:** Date Table  
+<br>
+→ Built relationship for accurate filtering:  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ **One-to-many mapping:** Date Table[Date] → Complaints[Date Received]  
+<br>
+→ Ensured model reliability and dashboard efficiency through:  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Clean filter propagation  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Accurate slicing across visuals  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Optimized performance for interactive dashboarding  
 <br>
 
 
