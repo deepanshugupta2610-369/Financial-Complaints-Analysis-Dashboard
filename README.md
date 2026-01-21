@@ -149,32 +149,76 @@ Common DAX patterns used:
 - `CALCULATE`
 - `SUM`
 - `DIVIDE`
-- Date intelligence using Date Table
+  <br>
+  Date intelligence using Date Table
 - `DATEADD`
 - `FILTER`
 <br>
-(Confirmed in project summary PDF.) :contentReference[oaicite:7]{index=7}
+
+
+### 4) Visualization & Storytelling (Dashboard Build)
 <br>
 
-### 4) Visualization & Storytelling
+→ Designed the dashboard using a **leadership-first layout**: KPIs → Drivers → Deep dive insights  
 <br>
-Visual components included:
-- KPI Cards (executive summary layer)
-- Monthly trend chart (seasonality tracking)
-- Complaints by Issue (bar chart)
-- Complaints by State (US map / hotspot analysis)
-- Complaints by Product (tree map / distribution)
-- Consumer Disputed % (donut chart)
-- Interactive slicers by channels:
-  - Email
-  - Fax
-  - Phone
-  - Postal Mail
-  - Referral
-  - Web
+→ Built interactive visuals to answer key business questions:  
 <br>
-(As per dashboard visuals list.) :contentReference[oaicite:8]{index=8}
 <br>
+→ **KPI Cards (Executive Summary):**  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Total complaints  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Timely response %  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Disputed rate %  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Resolved at no cost %  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ In-progress complaint count  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ YoY complaint change %  
+<br>
+<br>
+→ **Trend Analysis (Line Chart):**  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Monthly complaint trend for seasonality + spike detection  
+<br>
+<br>
+→ **Issue Driver Analysis (Bar Chart):**  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Identifies top complaint issues to prioritize operational fixes  
+<br>
+<br>
+→ **Geographic Hotspot Analysis (Map):**  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ State-wise complaint concentration for regional investigation  
+<br>
+<br>
+→ **Product Distribution (Treemap):**  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Highlights product categories driving the highest complaint volume  
+<br>
+<br>
+→ **Dispute Composition (Donut Chart):**  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Disputed vs Non-disputed complaint breakdown  
+<br>
+<br>
+→ Added slicers for complaint channel segmentation:  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Email  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Fax  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Phone  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Postal Mail  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Referral  
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;→ Web  
+<br>
+
 
 ---
 
