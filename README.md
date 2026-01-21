@@ -107,10 +107,13 @@ Dataset was cleaned, standardized, and modeled to enable time intelligence and c
 <br>
 - Designed tables as:
   - **Fact Table:** Financial Complaints
+   <br>
   - **Dimension Table:** Date Table
 <br>
 - Built relationship:
-  - **One-to-many mapping:** Date Table[Date] → Complaints[Date Received]
+  - **One-to-many mapping:**
+    <br>
+  - Date Table[Date] → Complaints[Date Received]
 <br>
 - Ensured:
   - Clean filter propagation
