@@ -259,16 +259,6 @@ This dashboard enables leadership to:
 - Establish KPI targets (reduce disputed %)
 <br>
 
-### Strategic Enhancements (90+ days)
-- Add NLP / Text analytics to auto-classify complaint themes
-- Predictive model to forecast complaint spikes
-- Build automated alerts for:
-  - sudden trend spikes
-  - dispute surges
-  - regional anomalies
-<br>
-
----
 
 ## 🛠 Tools & Tech Stack
 <br>
@@ -278,4 +268,16 @@ This dashboard enables leadership to:
 - **Power Query**
 - CSV Dataset
 <br>
+
+<br>
+
+This project successfully transforms raw financial complaint data into an executive-ready analytics dashboard, helping stakeholders across Risk, Product, and Customer Service teams to align on:
+
+Complaint drivers
+
+Resolution performance
+
+Customer dispute behavior
+
+Operational risk hotspots
 
