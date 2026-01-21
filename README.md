@@ -273,11 +273,11 @@ This dashboard enables leadership to:
 
 This project successfully transforms raw financial complaint data into an executive-ready analytics dashboard, helping stakeholders across Risk, Product, and Customer Service teams to align on:
 
-Complaint drivers
+- Complaint drivers
 
-Resolution performance
+- Resolution performance
 
-Customer dispute behavior
+- Customer dispute behavior
 
-Operational risk hotspots
+- Operational risk hotspots
 
