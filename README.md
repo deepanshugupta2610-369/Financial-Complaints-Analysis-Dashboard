@@ -77,43 +77,47 @@ Dataset was cleaned, standardized, and modeled to enable time intelligence and c
 
 ### 1) Data Understanding & Cleaning
 <br>
-Actions performed:
-- Imported raw CSV (~75K records)
-- Fixed incorrect date formats (**DD-MM-YYYY → Date format**)
-- Standardized important categorical fields:
-  - product
-  - issue
-  - company response
-- Removed:
-  - duplicates
-  - null/blank entries
-  - inconsistent category labels
-- Created a dedicated **Date Table** to support:
-  - Monthly trends
-  - Seasonality
-  - Year-over-year (YoY) measures
+
+- Imported raw CSV dataset containing **~75K financial complaint records**
 <br>
-(As per dashboard documentation.) :contentReference[oaicite:5]{index=5}
+- Reviewed dataset structure, column definitions, and missing value patterns
+<br>
+- Fixed incorrect **date formats (DD-MM-YYYY → Date)** for accurate time analysis
+<br>
+- Standardized key categorical text fields for consistency:
+  - Product
+  - Issue
+  - Company Response
+<br>
+- Removed data quality issues:
+  - Duplicate records
+  - Null / blank entries
+  - Inconsistent category labels
+<br>
+- Created a dedicated **Date Table** to enable proper time intelligence:
+  - Monthly trends
+  - Seasonality tracking
+  - Year-over-year (YoY) comparison
 <br>
 
 ### 2) Data Modelling
 <br>
-A clean **Star Schema** was implemented:
-- **Fact Table:** Financial Complaints
-- **Dimension Table:** Date Table
+
+- Implemented a clean **Star Schema** model to improve analytical performance
+<br>
+- Designed tables as:
+  - **Fact Table:** Financial Complaints
+  - **Dimension Table:** Date Table
+<br>
+- Built relationship:
+  - **One-to-many mapping:** Date Table[Date] → Complaints[Date Received]
+<br>
+- Ensured:
+  - Clean filter propagation
+  - Accurate slicing across visuals
+  - Optimized model performance for interactive dashboarding
 <br>
 
-Relationship:
-- One-to-many relationship: **Date Table[Date] → Complaints[Date Received]**
-<br>
-
-Benefits:
-- Accurate filter propagation
-- Better performance
-- Strong time intelligence foundation
-<br>
-(As shown in dashboard explanation.) :contentReference[oaicite:6]{index=6}
-<br>
 
 ### 3) DAX Measures (Metrics Layer)
 <br>
