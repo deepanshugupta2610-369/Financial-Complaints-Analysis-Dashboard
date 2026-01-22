@@ -28,7 +28,7 @@ A financial institution receives thousands of customer complaints every year. Le
 - Monitor resolution outcomes (disputed/resolved/in-progress)
 <br>
 
-**Objective:** Build a Power BI dashboard that provides a holistic view of complaint behavior and resolution performance to enable data-driven decision-making. :contentReference[oaicite:3]{index=3}
+**Objective:** Build a Power BI dashboard that provides a holistic view of complaint behavior and resolution performance to enable data-driven decision-making. 
 <br>
 
 ---
@@ -282,9 +282,6 @@ Combined: **~43%** complaint concentration
 ### 🌍 Geographic Hotspots
 - Certain states show disproportionate complaints
 - Indicates potential operational inefficiencies, vendor/service gaps, or region-specific customer experience issues
-<br>
-
-(All insights are derived from dashboard insight pages.) :contentReference[oaicite:9]{index=9}
 <br>
 
 ---
