@@ -67,7 +67,7 @@ A financial institution receives thousands of customer complaints every year. Le
 - Company Response / Resolution status
 <br>
 
-Dataset was cleaned, standardized, and modeled to enable time intelligence and consistent filtering. :contentReference[oaicite:4]{index=4}
+Dataset was cleaned, standardized, and modeled to enable time intelligence and consistent filtering.
 <br>
 
 ---
