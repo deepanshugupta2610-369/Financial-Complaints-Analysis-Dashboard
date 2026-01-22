@@ -3,7 +3,7 @@
 
 ## 🧾 Project Summary
 <br>
-This project delivers an **interactive Power BI dashboard** that helps a financial institution monitor and analyze **customer complaints** to improve:
+This project delivers an interactive Power BI dashboard that helps a financial institution monitor and analyze **customer complaints** to improve:
 - Customer experience (CX)
 - Operational efficiency
 - Complaint resolution performance
