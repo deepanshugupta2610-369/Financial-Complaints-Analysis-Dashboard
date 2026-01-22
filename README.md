@@ -299,24 +299,52 @@ This dashboard enables leadership to:
 
 ---
 
-## ✅ Recommendations (Actionable Next Steps)
 <br>
 
-### Quick Wins (0–30 days)
-- Identify top 3 complaint issues and create SOPs for resolution
-- Improve customer communication templates to reduce disputes
-- Weekly monitoring dashboard review with CX & Ops
+## **📌 Strategic Recommendations for Risk & Product Leaders**
+
 <br>
 
-### Operational Improvements (30–90 days)
-- Segment disputes by:
-  - issue
-  - product
-  - state
-- Root cause mapping for top complaint areas:
-  - account management
-  - deposits/withdrawals
-- Establish KPI targets (reduce disputed %)
+### **1) Targeted Training (Support & Ops Enablement)**
+- Focus frontline training on the **top complaint-driving issues** to reduce recurring service gaps.
+- Prioritize process reinforcement for:
+  - **Managing Accounts**
+  - **Deposits & Withdrawals**
+- Goal: Address the **high-frequency drivers (~top 20% issues)** that contribute to a major share of complaint volume.
+- Expected Impact:
+  - Faster resolution turnaround
+  - Lower repeat complaints
+  - Improved customer satisfaction consistency
+
+<br>
+
+### **2) Dispute Investigation (Quality & Resolution Audit)**
+- Audit the **~9.7% disputed complaints** to identify resolution quality gaps.
+- Investigate whether the “Resolved at No Cost” approach is:
+  - Misaligned with customer expectations, or
+  - Closing tickets without solving root cause
+- Implement:
+  - Dispute root-cause categorization
+  - Supervisor review for disputed closures
+  - Resolution quality checklist
+- Expected Impact:
+  - Reduced dispute rate
+  - Improved trust and resolution credibility
+  - Stronger compliance & customer fairness perception
+
+<br>
+
+### **3) Product Review (Credit Cards & UX Improvements)**
+- Product leaders should review the **Credit Card complaint category** since it contributes a major share (**~25% of volume**).
+- Recommended actions:
+  - Review **fees/charges communication clarity**
+  - Improve **billing & dispute journey UX**
+  - Simplify **T&Cs** and key policy touchpoints
+- Expected Impact:
+  - Lower product-driven complaint volume
+  - Better retention + reduced churn risk
+  - Stronger long-term product experience
+
 <br>
 
 
